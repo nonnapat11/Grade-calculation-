@@ -1,10 +1,9 @@
-from function import score
-from function import ascii_art
-import time
-
+from function import score                      #การเรียกใช้ฟังก์ชันจากอีกไฟล์
+from function import ascii_art                  #การเรียกใช้ฟังก์ชันจากอีกไฟล์
+import time                                     #การเรียกใช้ฟังก์ชัน time ของ python เพื่อจะเอามาทำ delay
 ascii_art()
 
-try:
+try:                                                      #การดัก Error ขึ้นต้นด้วย Try,except,else
     accumulated = float(input('ใส่คะแนนเก็บ: '))
     time.sleep(0.3)
     mid_score = float(input('ใส่คะแนนกลางภาค: '))

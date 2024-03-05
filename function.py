@@ -1,4 +1,4 @@
-def score(accumulated,mid_score,last_score,self_score):
+def score(accumulated,mid_score,last_score,self_score):             #การสร้างฟังก์ชันชื่อ score
 
     total_score = accumulated+mid_score+last_score+self_score
     print()
@@ -25,7 +25,7 @@ def score(accumulated,mid_score,last_score,self_score):
     else:
         print('กรุณาลองใหม่อีกครั้ง')
 
-def ascii_art():
+def ascii_art():                                                    #การสร้างฟังก์ชันชื่อ ascii_art
     print('''\
             
 █▀▄▀█ ▄▀█ █▀▄ █▀▀   █▄▄ █▄█   █▀▄ █░░
