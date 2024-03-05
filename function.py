@@ -1,5 +1,5 @@
 def score(accumulated,mid_score,last_score,self_score):
-    
+
     total_score = accumulated+mid_score+last_score+self_score
     print()
     print(f'คะแนน: {total_score}')
