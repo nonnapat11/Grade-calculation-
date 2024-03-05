@@ -1,5 +1,8 @@
 from function import score
+from function import ascii_art
 import time
+
+ascii_art()
 
 try:
     accumulated = float(input('ใส่คะแนนเก็บ: '))

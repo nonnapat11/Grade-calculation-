@@ -24,3 +24,11 @@ def score(accumulated,mid_score,last_score,self_score):
         print('เกรด: F')
     else:
         print('กรุณาลองใหม่อีกครั้ง')
+
+def ascii_art():
+    print('''\
+            
+█▀▄▀█ ▄▀█ █▀▄ █▀▀   █▄▄ █▄█   █▀▄ █░░
+█░▀░█ █▀█ █▄▀ ██▄   █▄█ ░█░   █▄▀ █▄▄
+
+        ''')
