@@ -1,5 +1,4 @@
 from function import score
-import os
 import time
 
 try:
